@@ -1,0 +1,147 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  background-color:black;
+  color: white;
+}
+body{
+  width: 100%;
+  height: 100%;
+}
+.navbar{
+  
+  color: white;
+  display: flex;
+  height: 64px;
+  width: 100%;
+  border-radius: 1rem;
+  padding: 0.25rem 0.25rem;
+}
+.navbar-option{
+  
+  display: flex;
+  width: 100%;
+}
+.navbar-option img{
+  width: 2rem;
+  height: 2rem;
+  
+  margin-left: 1rem;
+
+  
+  
+}
+.navbar-option input{
+  width: 474px;
+  height: 48px;
+  border-radius: 1rem;
+  
+  color: white;
+  border: 2px solid white;
+  opacity: 0.5;
+}
+.navbar-option input:hover{
+  border: 3px solid lightcoral;
+  opacity: 1;
+}
+.navbar-option .icon{
+  margin-left: 300px;
+  
+  color: white;
+  justify-self: center;
+  padding-top: 12px;
+  width: 3rem;
+  height:3rem;
+  opacity: 0.5;
+}
+.navbar-option .icon:hover{
+  opacity: 1;
+}
+
+.navbar-option button{
+  width: 10rem;
+  height: 32px;
+  background-color: white;
+  color: black;
+  margin-top: 10px;
+  margin-left: 5px;
+  border-radius: 20px;
+  opacity: 0.5;
+}
+.navbar-option button:hover{
+  opacity: 1;
+}
+
+.navbar-option .dwn{
+ 
+  
+  justify-self: center;
+  width: 3rem;
+  height:3rem;
+  margin-left: 5px;
+}
+.dwn button{
+  
+  background-color: black;
+  border:2px solid #121212;
+  opacity: 0.5;
+  
+}
+.dwn button:hover{
+  opacity: 1;
+}
+.dwn button a{
+  width: 2rem;
+  height: 2rem;
+  
+  color: white;
+  text-decoration: none;
+}
+.navbar-option .other{
+ margin-left: 130px;
+ margin-top: 15px;
+ 
+ color: white;
+ display: flex;
+}
+.navbar-option .other a {
+  
+  color: white;
+  margin-left: 15px;
+}
+.other .bail i{
+  
+  margin-left: 15px;
+  opacity: 0.5;
+}
+.other .bail i:hover{
+  opacity: 1;
+}
+.other .people i{
+  
+  margin-left: 15px;
+  opacity: 0.5;
+}
+.other .people i:hover{
+  opacity: 1;
+}
+.other .mail  {
+  height: 2rem;
+  width: 2rem;
+  
+  border-radius: 50px;
+  padding-left: 50px;
+  
+  
+}
+.other .mail a img{
+  height: 2rem;
+  width: 2rem;
+  
+  padding-bottom: 6px;
+  opacity: 0.5;
+}
+.other .mail a img:hover{
+  opacity: 1;
+}
